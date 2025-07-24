@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: flask-cognifyz
+    env: python
+    buildCommand: "pip install -r requirements.txt"
+    startCommand: "python app.py"
